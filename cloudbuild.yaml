@@ -1,4 +1,4 @@
 #cloudbuild.yaml
 steps:
-- name: ‘docker/compose:1.29.2’
-  args: [‘up’]
+- name: 'docker/compose:1.29.2'
+  args: ['up', '-d']
