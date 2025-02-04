@@ -8,8 +8,6 @@
 
     },
     "server": {
-      "port": "5001",
-      "secure": true,
-      "secret_key": "uTuZyOHyaGAWi6lg"
+      "port": "5001"
     }
   }
