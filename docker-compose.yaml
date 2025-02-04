@@ -56,8 +56,11 @@ services:
   stripe:
     image: kamalmoha/stripe_blnk:latest
     container_name: stripe_blnk
+    restart: on-failure
     ports:
       - "8000:8000"
+    depends_on:
+      - server
 
   postgres:
     image: ${POSTGRES_IMAGE:-postgres:16}
