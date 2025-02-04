@@ -56,6 +56,8 @@ services:
   stripe:
     image: kamalmoha/stripe_blnk:latest
     container_name: stripe_blnk
+    ports:
+      - "8000:8000"
 
   postgres:
     image: ${POSTGRES_IMAGE:-postgres:16}
