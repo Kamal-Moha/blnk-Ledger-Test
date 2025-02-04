@@ -54,11 +54,13 @@ services:
     container_name: redis
     
   stripe:
-    image: kamalmoha/stripe_blnk:v1.0
+    image: kamalmoha/stripe_blnk:v1.2
     container_name: stripe_blnk
     restart: on-failure
     ports:
       - "8000:8000"
+    environment:
+      BLNK_SERVER_URL: "http://server:5001"  # Environment variable added
     depends_on:
       - server
 
