@@ -1,7 +1,7 @@
 {
     "project_name": "Blnk",
     "data_source": {
-      "dns": "postgres://postgres:password@34.127.83.95:5432/blnk?sslmode=disable"
+      "dns": "postgres://postgres:password@34.127.83.95:5432/blnk?sslmode=require"
     },
     "redis": {
       "dns": "redis:6379"
