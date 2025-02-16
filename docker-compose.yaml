@@ -69,7 +69,7 @@ services:
     container_name: ${POSTGRES_CONTAINER:-postgres}
     restart: on-failure
     ports:
-      - "${POSTGRES_OUTER_PORT:-5432}:5432"
+      - "5432:5432"
     environment:
       TZ: ${TZ:-Etc/UTC}
       POSTGRES_USER: ${POSTGRES_USER:-postgres}
