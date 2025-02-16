@@ -1,7 +1,7 @@
 {
     "project_name": "Blnk",
     "data_source": {
-      "dns": "postgres://postgres:password@34.127.83.95:5432/blnk?sslmode=require"
+      "dns": "postgresql://neondb_owner:npg_IWZbVw9xeY6F@ep-round-tree-a60dclyz-pooler.us-west-2.aws.neon.tech/neondb?sslmode=require"
     },
     "redis": {
       "dns": "redis:6379"
