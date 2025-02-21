@@ -1,7 +1,7 @@
 {
     "project_name": "Blnk",
     "data_source": {
-      "dns": "postgresql://postgres:Dbtest$!1234@db.ecpiwuflyusnajxccerf.supabase.co:5432/postgres?sslmode=require"
+      "dns": "postgresql://postgres:Dbtest$!1234@db.ecpiwuflyusnajxccerf.supabase.co:5432/postgres"
     },
     "redis": {
       "dns": "redis:6379"
