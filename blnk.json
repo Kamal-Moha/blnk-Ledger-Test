@@ -1,7 +1,8 @@
 {
     "project_name": "Blnk",
     "data_source": {
-      "dns": "postgresql://neondb_owner:npg_IWZbVw9xeY6F@ep-round-tree-a60dclyz-pooler.us-west-2.aws.neon.tech/neondb?sslmode=require"
+      #"dns": "postgresql://neondb_owner:npg_IWZbVw9xeY6F@ep-round-tree-a60dclyz-pooler.us-west-2.aws.neon.tech/neondb?sslmode=require"
+      "dns": "postgresql://postgres:Dbtest$!1234@db.ecpiwuflyusnajxccerf.supabase.co:5432/postgres?sslmode=require"
     },
     "redis": {
       "dns": "redis:6379"
