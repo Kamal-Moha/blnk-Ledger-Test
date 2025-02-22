@@ -15,7 +15,7 @@ version: "3.8"
 
 services:
   server:
-    image: ${BLNK_IMAGE:-jerryenebeli/blnk:0.8.2}
+    image: ${BLNK_IMAGE:-jerryenebeli/blnk:0.8.3}
     container_name: server
     restart: on-failure
     entrypoint: ["/bin/sh", "-c"]
@@ -54,7 +54,7 @@ services:
     container_name: redis
     
   stripe:
-    image: kamalmoha/stripe_blnk:v1.3
+    image: kamalmoha/stripe_blnk:v1.4
     container_name: stripe_blnk
     restart: on-failure
     ports:
