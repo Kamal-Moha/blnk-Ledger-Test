@@ -15,7 +15,7 @@ version: "3.8"
 
 services:
   server:
-    image: ${BLNK_IMAGE:-jerryenebeli/blnk:0.9.1}
+    image: ${BLNK_IMAGE:-jerryenebeli/blnk:0.8.8}
     container_name: server
     restart: on-failure
     entrypoint: ["/bin/sh", "-c"]
